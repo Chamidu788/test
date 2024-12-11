@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --font-poppins: 'poppins', sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: 'popins', sans-serif;
+  background-image: url('/BG/BG.png');
+}
